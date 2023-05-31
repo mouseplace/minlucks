@@ -1,5 +1,8 @@
 #! /usr/bin/env bash
 
+# get the current version
+old_version=$(cat package.json | jq -r '.version')
+
 version=$(date +%Y.%m.%d)
 
 # Get the power and minlucks from the Minlucks spreadsheet.
@@ -7,8 +10,8 @@ curl -s 'https://docs.google.com/spreadsheets/d/13hKjNDFTFR3rTkmQzyi3d4ZDOlQJUvT
 
 # Convert the csv to json and replace the escaped quotes.
 jq -cR 'split("\",\"")' effs.csv > effs2.csv
-sed 's/\\"//g' effs2.csv > effs.csv
-jq -csf csv2json.jq effs.csv | jq > effs.json
+sed -i '' 's/\\"//g' effs2.csv
+jq -csf csv2json.jq effs2.csv | jq > effs.json
 
 # # Reformat the json to be an array of objects in the format {"<mouse>": {"power": <power>, "minlucks": [<minlucks>]}}
 jq -s '.[0][] | {(.Mouse):{ power: .Power, effs: [.Arcane, .Draconic, .Forgotten, .Hydro, .Parental, .Physical, .Shadow, .Tactical, .Law, .Rift]}}' effs.json > effs2.json
@@ -38,12 +41,19 @@ rm effs.csv
 rm effs.json
 rm effs2.json
 
-# git add minlucks.js
-# git commit -m "Update minlucks.js to $version"
+# Update the README.
+sed -i '' "s/$old_version/$version/g" README.md
 
-# git tag -a "$version" -m "Update minlucks.js to $version" -f
+# Commit and tag.
+git add README.md
+git add minlucks.js
 
-# git push origin main
-# git push origin "$version" -f
-# npm version "$version"
-# npm publish
+git commit -m "Update minlucks.js to $version"
+
+git tag -a "$version" -m "Update minlucks.js to $version" -f
+
+git push origin main
+git push origin "$version" -f
+
+npm version "$version"
+npm publish

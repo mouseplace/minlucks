@@ -4,6 +4,6 @@ Populates `window.minlucks` with the contents of the [Minlucks Google Sheet](htt
 
 Add the following to your userscript in the header, replacing the version number to match the latest.
 
-```
-// @require https://cdn.jsdelivr.net/npm/minlucks@2023.5.31/minlucks.js
+```js
+// @require https://cdn.jsdelivr.net/npm/minlucks@2023.5.31-4/minlucks.js
 ```
