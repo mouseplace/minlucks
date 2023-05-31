@@ -11,7 +11,7 @@ sed 's/\\"//g' effs2.csv > effs.csv
 jq -csf csv2json.jq effs.csv | jq > effs.json
 
 # # Reformat the json to be an array of objects in the format {"<mouse>": {"power": <power>, "minlucks": [<minlucks>]}}
-jq -s '.[0][] | {(.Mouse):{ power: .Power, effs: [.Arcane, .Draconic, .Forgotten, .Hydro, .Physical, .Shadow, .Tactical, .Law, .Rift]}}' effs.json > effs2.json
+jq -s '.[0][] | {(.Mouse):{ power: .Power, effs: [.Arcane, .Draconic, .Forgotten, .Hydro, .Parental, .Physical, .Shadow, .Tactical, .Law, .Rift]}}' effs.json > effs2.json
 jq -s 'add' effs2.json > effs.json
 
 # # Create the minlucks.js file.

@@ -11,7 +11,7 @@
 // @grant       none
 // ==/UserScript==
 
-window.minlucks = {
+const minlucks = {
   "Abominable Snow": {
     "power": 1900,
     "effs": [
@@ -19,6 +19,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -29,6 +30,7 @@ window.minlucks = {
   "Absolute Acolyte": {
     "power": 59400,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -48,6 +50,7 @@ window.minlucks = {
       175,
       0,
       0,
+      0,
       25,
       0,
       0,
@@ -57,6 +60,7 @@ window.minlucks = {
   "Admiral Arrrgh": {
     "power": 1800,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -75,6 +79,7 @@ window.minlucks = {
       500,
       500,
       500,
+      0,
       500,
       500,
       500,
@@ -89,6 +94,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       125,
       0,
       275,
@@ -99,6 +105,7 @@ window.minlucks = {
   "Aged": {
     "power": 9000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -120,6 +127,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300,
       0
     ]
@@ -131,6 +139,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -145,6 +154,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -155,6 +165,7 @@ window.minlucks = {
   "Alnilam": {
     "power": 5500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -177,6 +188,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -184,6 +196,7 @@ window.minlucks = {
     "power": 6825,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -201,6 +214,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -215,6 +229,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -229,6 +244,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -247,6 +263,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -256,6 +273,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -275,6 +293,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -289,12 +308,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Angry Aphid": {
     "power": 10000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -316,6 +337,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0
     ]
@@ -327,6 +349,7 @@ window.minlucks = {
       100,
       100,
       100,
+      25,
       75,
       400,
       75,
@@ -338,6 +361,7 @@ window.minlucks = {
     "power": 7150,
     "effs": [
       150,
+      0,
       0,
       0,
       0,
@@ -359,12 +383,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       900
     ]
   },
   "Archer": {
     "power": 1500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -387,12 +413,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Aristo-Cat Burglar": {
     "power": 14590,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -415,6 +443,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -425,6 +454,7 @@ window.minlucks = {
       0,
       0,
       50,
+      0,
       50,
       0,
       50,
@@ -435,6 +465,7 @@ window.minlucks = {
   "Ascended Elder": {
     "power": 375015,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -457,12 +488,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Assassin": {
     "power": 13175,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -481,6 +514,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -491,6 +525,7 @@ window.minlucks = {
   "Astrological Astronomer": {
     "power": 11825,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -509,6 +544,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -527,12 +563,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Automorat": {
     "power": 3751,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -555,6 +593,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -566,6 +605,7 @@ window.minlucks = {
       200,
       0,
       0,
+      0,
       25,
       0,
       0,
@@ -575,6 +615,7 @@ window.minlucks = {
   "Bandit": {
     "power": 100,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -597,6 +638,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -611,6 +653,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -621,6 +664,7 @@ window.minlucks = {
       100,
       100,
       175,
+      0,
       100,
       100,
       100,
@@ -639,12 +683,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Baroness Von Bean": {
     "power": 31000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -659,6 +705,7 @@ window.minlucks = {
   "Baroque Dancer": {
     "power": 33000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -681,12 +728,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Bartender": {
     "power": 2250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -705,6 +754,7 @@ window.minlucks = {
       0,
       100,
       0,
+      0,
       100,
       200,
       25,
@@ -716,6 +766,7 @@ window.minlucks = {
     "power": 60000,
     "effs": [
       25,
+      0,
       0,
       0,
       0,
@@ -737,6 +788,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -751,6 +803,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -761,6 +814,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -779,12 +833,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Beast Tamer": {
     "power": 3000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -803,6 +859,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -813,6 +870,7 @@ window.minlucks = {
   "Berzerker": {
     "power": 8250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -835,6 +893,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -845,6 +904,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -856,6 +916,7 @@ window.minlucks = {
     "power": 51151,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -873,6 +934,7 @@ window.minlucks = {
       100,
       100,
       175,
+      0,
       100,
       100,
       100,
@@ -891,6 +953,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -901,6 +964,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -911,6 +975,7 @@ window.minlucks = {
   "Birthday": {
     "power": 765,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -933,6 +998,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -947,6 +1013,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -957,6 +1024,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -971,6 +1039,7 @@ window.minlucks = {
       100,
       100,
       100,
+      25,
       75,
       400,
       75,
@@ -981,6 +1050,7 @@ window.minlucks = {
   "Black Powder Thief": {
     "power": 4999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -999,6 +1069,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1009,6 +1080,7 @@ window.minlucks = {
   "Blacksmith": {
     "power": 27899,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1027,6 +1099,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -1045,12 +1118,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Bonbon Gummy Globlin": {
     "power": 1800,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -1069,6 +1144,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       125,
       0,
       200,
@@ -1083,6 +1159,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1097,6 +1174,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -1115,6 +1193,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1125,6 +1204,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -1135,6 +1215,7 @@ window.minlucks = {
   "Bounty Hunter": {
     "power": 2100,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1153,6 +1234,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -1163,6 +1245,7 @@ window.minlucks = {
   "Breakdancer": {
     "power": 750,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -1182,6 +1265,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -1195,6 +1279,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -1208,6 +1293,7 @@ window.minlucks = {
       150,
       0,
       125,
+      0,
       0,
       0,
       200,
@@ -1227,6 +1313,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1237,6 +1324,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1251,6 +1339,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       100,
@@ -1269,6 +1358,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1279,6 +1369,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -1297,12 +1388,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Budrich Thornborn": {
     "power": 12000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1321,6 +1414,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1339,6 +1433,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       7500
     ]
   },
@@ -1349,6 +1444,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1367,6 +1463,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1377,6 +1474,7 @@ window.minlucks = {
       100,
       100,
       175,
+      0,
       100,
       100,
       100,
@@ -1387,6 +1485,7 @@ window.minlucks = {
   "Cagey Countess": {
     "power": 29000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1409,12 +1508,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Calligraphy": {
     "power": 888,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -1437,6 +1538,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1451,6 +1553,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1461,6 +1564,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1471,6 +1575,7 @@ window.minlucks = {
   "Candy Cat": {
     "power": 1250,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -1493,12 +1598,14 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
   "Cannonball": {
     "power": 3499,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1517,6 +1624,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -1527,6 +1635,7 @@ window.minlucks = {
   "Captain Cannonball": {
     "power": 1800,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -1547,6 +1656,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300,
       0,
       0
@@ -1559,6 +1669,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1573,6 +1684,7 @@ window.minlucks = {
       0,
       0,
       50,
+      0,
       50,
       0,
       50,
@@ -1583,6 +1695,7 @@ window.minlucks = {
   "Cardshark": {
     "power": 4500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1601,6 +1714,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1619,6 +1733,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1629,6 +1744,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       0,
       175,
@@ -1647,6 +1763,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -1657,6 +1774,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -1675,6 +1793,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300
     ]
   },
@@ -1685,6 +1804,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -1703,12 +1823,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Cell Sweeper": {
     "power": 16200,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1727,6 +1849,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -1741,6 +1864,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -1751,6 +1875,7 @@ window.minlucks = {
   "Chafed Cellist": {
     "power": 30520,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1773,6 +1898,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -1783,6 +1909,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -1801,12 +1928,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Champion Danseuse": {
     "power": 72000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1829,6 +1958,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       900
     ]
   },
@@ -1837,6 +1967,7 @@ window.minlucks = {
     "effs": [
       150,
       50,
+      0,
       0,
       0,
       0,
@@ -1857,6 +1988,7 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
@@ -1867,6 +1999,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -1881,6 +2014,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -1897,6 +2031,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       2500,
       0,
       0
@@ -1905,6 +2040,7 @@ window.minlucks = {
   "Chip Chiseler": {
     "power": 1260,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1927,12 +2063,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Chitinous": {
     "power": 14000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -1951,6 +2089,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1965,6 +2104,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1979,6 +2119,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -1994,6 +2135,7 @@ window.minlucks = {
       175,
       0,
       0,
+      0,
       25,
       0,
       0,
@@ -2003,6 +2145,7 @@ window.minlucks = {
   "Chronomaster": {
     "power": 3000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -2025,12 +2168,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Circuit Judge": {
     "power": 4500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -2053,6 +2198,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2067,12 +2213,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Clockwork Samurai": {
     "power": 50,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -2095,6 +2243,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -2103,6 +2252,7 @@ window.minlucks = {
     "effs": [
       100,
       100,
+      0,
       0,
       0,
       0,
@@ -2119,6 +2269,7 @@ window.minlucks = {
       500,
       500,
       500,
+      0,
       500,
       500,
       500,
@@ -2137,6 +2288,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2151,6 +2303,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2161,6 +2314,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -2179,6 +2333,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2189,6 +2344,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -2203,6 +2359,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -2213,6 +2370,7 @@ window.minlucks = {
   "Coal Shoveller": {
     "power": 2250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -2235,6 +2393,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -2245,6 +2404,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -2258,6 +2418,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       25,
       200,
@@ -2273,6 +2434,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -2283,6 +2445,7 @@ window.minlucks = {
   "Conjurer": {
     "power": 6000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -2303,6 +2466,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       175,
       0,
       0
@@ -2315,6 +2479,7 @@ window.minlucks = {
       300,
       300,
       300,
+      0,
       300,
       300,
       300,
@@ -2329,6 +2494,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -2347,6 +2513,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2357,6 +2524,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -2375,6 +2543,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2385,6 +2554,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -2403,6 +2573,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2413,6 +2584,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -2431,6 +2603,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2438,6 +2611,7 @@ window.minlucks = {
     "power": 1000,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -2459,6 +2633,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2467,6 +2642,7 @@ window.minlucks = {
     "effs": [
       0,
       500,
+      0,
       0,
       0,
       0,
@@ -2487,6 +2663,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2496,6 +2673,7 @@ window.minlucks = {
       100,
       0,
       125,
+      0,
       0,
       0,
       0,
@@ -2515,6 +2693,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2525,6 +2704,7 @@ window.minlucks = {
       100,
       100,
       175,
+      0,
       100,
       100,
       100,
@@ -2535,6 +2715,7 @@ window.minlucks = {
   "Costumed Dog": {
     "power": 1200,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -2556,6 +2737,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300,
       300
     ]
@@ -2563,6 +2745,7 @@ window.minlucks = {
   "Costumed Horse": {
     "power": 1200,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -2584,6 +2767,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300,
       300
     ]
@@ -2591,6 +2775,7 @@ window.minlucks = {
   "Costumed Ox": {
     "power": 1200,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -2612,6 +2797,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300,
       300
     ]
@@ -2619,6 +2805,7 @@ window.minlucks = {
   "Costumed Rabbit": {
     "power": 1200,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -2640,6 +2827,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300,
       300
     ]
@@ -2647,6 +2835,7 @@ window.minlucks = {
   "Costumed Rooster": {
     "power": 1200,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -2668,6 +2857,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300,
       300
     ]
@@ -2675,6 +2865,7 @@ window.minlucks = {
   "Costumed Snake": {
     "power": 1200,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -2696,6 +2887,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300,
       300
     ]
@@ -2707,6 +2899,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -2725,6 +2918,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2735,6 +2929,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -2749,6 +2944,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -2767,6 +2963,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2781,6 +2978,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2791,6 +2989,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -2805,6 +3004,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -2815,6 +3015,7 @@ window.minlucks = {
   "Crate Camo": {
     "power": 3751,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -2835,6 +3036,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -2847,6 +3049,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -2865,6 +3068,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -2875,6 +3079,7 @@ window.minlucks = {
       125,
       0,
       125,
+      0,
       125,
       0,
       125,
@@ -2889,6 +3094,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -2903,6 +3109,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -2917,6 +3124,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -2927,6 +3135,7 @@ window.minlucks = {
   "Croquet Crusher": {
     "power": 2945,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -2945,6 +3154,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -2958,6 +3168,7 @@ window.minlucks = {
       0,
       0,
       2150,
+      0,
       0,
       0,
       0,
@@ -2977,6 +3188,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -2986,6 +3198,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       0,
@@ -3005,6 +3218,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3014,6 +3228,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       0,
@@ -3033,6 +3248,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3042,6 +3258,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       0,
@@ -3061,6 +3278,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3071,6 +3289,7 @@ window.minlucks = {
       0,
       100,
       50,
+      0,
       0,
       0,
       0,
@@ -3089,12 +3308,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Cupcake Camo": {
     "power": 900,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -3117,12 +3338,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Cupcake Cutie": {
     "power": 950,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -3145,6 +3368,7 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
@@ -3155,6 +3379,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -3169,6 +3394,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -3187,12 +3413,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Cursed Crusader": {
     "power": 21500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3215,6 +3443,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3222,6 +3451,7 @@ window.minlucks = {
     "power": 6499,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -3243,6 +3473,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3250,6 +3481,7 @@ window.minlucks = {
     "power": 12025,
     "effs": [
       150,
+      0,
       0,
       0,
       0,
@@ -3271,6 +3503,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3285,12 +3518,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Cute Crate Carrier": {
     "power": 3499,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3313,6 +3548,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
@@ -3323,6 +3559,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -3337,6 +3574,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -3355,6 +3593,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3365,6 +3604,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -3379,6 +3619,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -3393,6 +3634,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -3405,6 +3647,7 @@ window.minlucks = {
     "effs": [
       150,
       50,
+      0,
       0,
       0,
       0,
@@ -3421,6 +3664,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -3435,6 +3679,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -3453,6 +3698,7 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
@@ -3463,6 +3709,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -3481,12 +3728,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       500
     ]
   },
   "Dangerous Duo": {
     "power": 4999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3509,6 +3758,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3518,6 +3768,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -3533,6 +3784,7 @@ window.minlucks = {
       100,
       100,
       175,
+      0,
       100,
       100,
       100,
@@ -3543,6 +3795,7 @@ window.minlucks = {
   "Dastardly Duchess": {
     "power": 34550,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3562,6 +3815,7 @@ window.minlucks = {
       125,
       0,
       0,
+      0,
       200,
       0,
       0,
@@ -3572,6 +3826,7 @@ window.minlucks = {
     "power": 72000,
     "effs": [
       1000,
+      0,
       0,
       0,
       0,
@@ -3589,6 +3844,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -3602,6 +3858,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       300,
@@ -3621,6 +3878,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3635,12 +3893,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Defender": {
     "power": 8400,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3663,6 +3923,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -3670,6 +3931,7 @@ window.minlucks = {
     "power": 2300,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -3691,12 +3953,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Derpicorn": {
     "power": 998,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3719,12 +3983,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Derr Chieftain": {
     "power": 20400,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3744,6 +4010,7 @@ window.minlucks = {
       200,
       0,
       0,
+      0,
       125,
       0,
       0,
@@ -3757,6 +4024,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -3767,6 +4035,7 @@ window.minlucks = {
   "Desert Architect": {
     "power": 11151,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3785,6 +4054,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300,
       0,
       300,
@@ -3799,6 +4069,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -3809,6 +4080,7 @@ window.minlucks = {
   "Desperado": {
     "power": 4500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3827,6 +4099,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -3837,6 +4110,7 @@ window.minlucks = {
   "Devious Gentleman": {
     "power": 5520,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3855,6 +4129,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -3873,12 +4148,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Diminutive Detainee": {
     "power": 20000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3901,12 +4178,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Dire Lycan": {
     "power": 1240,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -3929,12 +4208,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Dojo Sensei": {
     "power": 45000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -3953,6 +4234,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -3967,6 +4249,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -3981,6 +4264,7 @@ window.minlucks = {
       100,
       0,
       75,
+      0,
       75,
       0,
       75,
@@ -3993,6 +4277,7 @@ window.minlucks = {
     "effs": [
       0,
       900,
+      0,
       0,
       0,
       0,
@@ -4013,6 +4298,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4027,12 +4313,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Dread Knight": {
     "power": 2450,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4055,6 +4343,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4065,6 +4354,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -4083,6 +4373,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4093,6 +4384,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -4103,6 +4395,7 @@ window.minlucks = {
   "Dumpling Chef": {
     "power": 2000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4125,12 +4418,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
   "Dunehopper": {
     "power": 5000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4149,6 +4444,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       250,
       0,
       0,
@@ -4163,6 +4459,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4177,6 +4474,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -4191,6 +4489,7 @@ window.minlucks = {
       1000,
       100000,
       1000,
+      25,
       1000,
       1000,
       1000,
@@ -4209,12 +4508,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Effervescent": {
     "power": 13500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4233,6 +4534,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4247,6 +4549,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4261,6 +4564,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4275,6 +4579,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4289,6 +4594,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4299,6 +4605,7 @@ window.minlucks = {
   "El Flamenco": {
     "power": 1400,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -4321,6 +4628,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4331,6 +4639,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4349,12 +4658,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Elixir Maker": {
     "power": 5050,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4377,6 +4688,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4386,6 +4698,7 @@ window.minlucks = {
       150,
       0,
       200,
+      0,
       0,
       0,
       125,
@@ -4401,6 +4714,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -4419,6 +4733,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4429,6 +4744,7 @@ window.minlucks = {
       300,
       300,
       300,
+      0,
       300,
       300,
       300,
@@ -4443,6 +4759,7 @@ window.minlucks = {
       500,
       500,
       500,
+      0,
       500,
       500,
       500,
@@ -4457,6 +4774,7 @@ window.minlucks = {
       300,
       300,
       300,
+      0,
       300,
       300,
       300,
@@ -4469,6 +4787,7 @@ window.minlucks = {
     "effs": [
       0,
       600,
+      0,
       0,
       0,
       0,
@@ -4489,12 +4808,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Enlightened Labourer": {
     "power": 2180,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4514,6 +4835,7 @@ window.minlucks = {
       125,
       0,
       0,
+      0,
       200,
       0,
       0,
@@ -4531,12 +4853,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
   "Escape Artist": {
     "power": 50,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -4559,6 +4883,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4566,6 +4891,7 @@ window.minlucks = {
     "power": 3275,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -4587,6 +4913,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4594,6 +4921,7 @@ window.minlucks = {
     "power": 5500,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -4615,6 +4943,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4622,6 +4951,7 @@ window.minlucks = {
     "power": 6499,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -4643,6 +4973,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4653,6 +4984,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -4667,6 +4999,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -4685,12 +5018,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Explorator": {
     "power": 4700,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4709,6 +5044,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4727,6 +5063,7 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
@@ -4737,6 +5074,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -4747,6 +5085,7 @@ window.minlucks = {
   "Fall Familiar": {
     "power": 11500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4769,12 +5108,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       900
     ]
   },
   "Falling Carpet": {
     "power": 12200,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4793,6 +5134,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4803,6 +5145,7 @@ window.minlucks = {
   "Farrier": {
     "power": 2250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4821,6 +5164,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -4839,12 +5183,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Fetid Swamp": {
     "power": 12675,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4867,6 +5213,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4877,6 +5224,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -4891,6 +5239,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -4905,6 +5254,7 @@ window.minlucks = {
       125,
       125,
       400,
+      25,
       75,
       125,
       75,
@@ -4915,6 +5265,7 @@ window.minlucks = {
   "Fiery Crusher": {
     "power": 5095,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4935,6 +5286,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       175,
       0,
       0
@@ -4949,6 +5301,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       150,
       0,
       0
@@ -4957,6 +5310,7 @@ window.minlucks = {
   "Firefly": {
     "power": 3691,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -4979,6 +5333,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -4989,6 +5344,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -5003,6 +5359,7 @@ window.minlucks = {
       0,
       0,
       50,
+      0,
       50,
       0,
       50,
@@ -5017,6 +5374,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -5035,12 +5393,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Flutterby": {
     "power": 6248,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -5060,6 +5420,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -5073,6 +5434,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5087,6 +5449,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5097,6 +5460,7 @@ window.minlucks = {
   "Force Fighter Blue": {
     "power": 1000,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -5119,12 +5483,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Force Fighter Pink": {
     "power": 1750,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -5147,12 +5513,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Force Fighter Yellow": {
     "power": 1250,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -5171,6 +5539,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5189,6 +5558,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5199,6 +5569,7 @@ window.minlucks = {
       200,
       200,
       200,
+      0,
       200,
       200,
       200,
@@ -5213,6 +5584,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -5227,6 +5599,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5241,6 +5614,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5255,6 +5629,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5269,6 +5644,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -5283,6 +5659,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5297,6 +5674,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       100,
@@ -5315,6 +5693,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5329,6 +5708,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5339,6 +5719,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5353,6 +5734,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5363,6 +5745,7 @@ window.minlucks = {
   "Fuel": {
     "power": 3253,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -5385,6 +5768,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5395,6 +5779,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -5413,6 +5798,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5422,6 +5808,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -5441,6 +5828,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5449,6 +5837,7 @@ window.minlucks = {
     "effs": [
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -5465,6 +5854,7 @@ window.minlucks = {
       50000,
       0,
       25,
+      0,
       25,
       0,
       25,
@@ -5478,6 +5868,7 @@ window.minlucks = {
       200,
       0,
       100,
+      0,
       0,
       0,
       100,
@@ -5494,6 +5885,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -5503,6 +5895,7 @@ window.minlucks = {
   "Gate Keeper": {
     "power": 25185,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -5525,6 +5918,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5534,6 +5928,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       0,
@@ -5553,6 +5948,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5567,6 +5963,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5577,6 +5974,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5590,6 +5988,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       25,
       200,
@@ -5609,6 +6008,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -5618,6 +6018,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       25,
       200,
@@ -5633,6 +6034,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -5647,6 +6049,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5661,6 +6064,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5671,6 +6075,7 @@ window.minlucks = {
   "Gladiator": {
     "power": 15600,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -5689,6 +6094,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       600,
       0,
       0,
@@ -5699,6 +6105,7 @@ window.minlucks = {
   "Glass Blower": {
     "power": 27899,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -5717,6 +6124,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5735,6 +6143,7 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
@@ -5744,6 +6153,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       25,
       200,
@@ -5759,6 +6169,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       175,
       100,
@@ -5773,6 +6184,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5787,6 +6199,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -5802,6 +6215,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -5815,6 +6229,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -5830,6 +6245,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -5839,6 +6255,7 @@ window.minlucks = {
   "Gourd Ghoul": {
     "power": 3500,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -5861,12 +6278,14 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
   "Grampa Golem": {
     "power": 2815,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -5889,12 +6308,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
   "Grandfather": {
     "power": 7000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -5913,6 +6334,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5931,6 +6353,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -5941,6 +6364,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5955,6 +6379,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5969,6 +6394,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -5983,6 +6409,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6001,6 +6428,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6011,6 +6439,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6029,6 +6458,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -6039,6 +6469,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -6049,6 +6480,7 @@ window.minlucks = {
   "Grit Grifter": {
     "power": 10000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6067,6 +6499,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -6077,6 +6510,7 @@ window.minlucks = {
   "Ground Gavaleer": {
     "power": 12475,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6096,6 +6530,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -6105,6 +6540,7 @@ window.minlucks = {
   "Grubling Herder": {
     "power": 4000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6123,6 +6559,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       175,
       0,
       0,
@@ -6133,6 +6570,7 @@ window.minlucks = {
   "Guardian": {
     "power": 13200,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6155,6 +6593,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6165,6 +6604,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -6175,6 +6615,7 @@ window.minlucks = {
   "Gyrologer": {
     "power": 18050,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6197,12 +6638,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Hapless": {
     "power": 570,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6217,6 +6660,7 @@ window.minlucks = {
   "Hapless Marionette": {
     "power": 2,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -6239,6 +6683,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
@@ -6249,6 +6694,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6260,6 +6706,7 @@ window.minlucks = {
     "power": 1400,
     "effs": [
       50,
+      0,
       0,
       0,
       0,
@@ -6277,6 +6724,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6291,6 +6739,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       175,
       100,
@@ -6306,6 +6755,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       100,
       0,
@@ -6315,6 +6765,7 @@ window.minlucks = {
   "Harvester": {
     "power": 20700,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6337,6 +6788,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6347,6 +6799,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       175,
       0,
       100,
@@ -6358,6 +6811,7 @@ window.minlucks = {
     "power": 1500000,
     "effs": [
       1000,
+      0,
       0,
       0,
       0,
@@ -6379,12 +6833,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Herc": {
     "power": 21625,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6403,6 +6859,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6421,6 +6878,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6431,6 +6889,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6445,6 +6904,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6459,6 +6919,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6469,6 +6930,7 @@ window.minlucks = {
   "Hollowhead": {
     "power": 750,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -6488,6 +6950,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -6497,6 +6960,7 @@ window.minlucks = {
   "Hookshot": {
     "power": 4250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6515,6 +6979,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6533,12 +6998,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Hot Head": {
     "power": 2300,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6561,6 +7028,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6570,6 +7038,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       0,
@@ -6585,6 +7054,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6599,6 +7069,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       175,
@@ -6617,12 +7088,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Hydrophobe": {
     "power": 1995,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6638,6 +7111,7 @@ window.minlucks = {
     "power": 6500,
     "effs": [
       150,
+      0,
       0,
       0,
       0,
@@ -6659,6 +7133,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6669,6 +7144,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6687,6 +7163,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6697,6 +7174,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -6715,6 +7193,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6729,6 +7208,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6739,6 +7219,7 @@ window.minlucks = {
       0,
       0,
       200,
+      0,
       0,
       0,
       100,
@@ -6757,6 +7238,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6767,6 +7249,7 @@ window.minlucks = {
       100,
       100,
       100,
+      25,
       75,
       400,
       75,
@@ -6777,6 +7260,7 @@ window.minlucks = {
   "Impersonator": {
     "power": 5,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -6799,6 +7283,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6806,6 +7291,7 @@ window.minlucks = {
     "power": 1150,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -6827,6 +7313,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6837,6 +7324,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       75,
       0,
       75,
@@ -6847,6 +7335,7 @@ window.minlucks = {
   "Infiltrator": {
     "power": 12500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6865,6 +7354,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -6876,6 +7366,7 @@ window.minlucks = {
     "power": 8250,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -6897,12 +7388,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Jovial Jailor": {
     "power": 17300,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6921,6 +7414,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6935,6 +7429,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -6945,6 +7440,7 @@ window.minlucks = {
   "Jurassic": {
     "power": 13650,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -6967,6 +7463,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -6977,6 +7474,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -6990,6 +7488,7 @@ window.minlucks = {
       200,
       0,
       100,
+      0,
       0,
       0,
       100,
@@ -7006,6 +7505,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -7015,6 +7515,7 @@ window.minlucks = {
   "Key Master": {
     "power": 23140,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7034,6 +7535,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -7043,6 +7545,7 @@ window.minlucks = {
   "King Scarab": {
     "power": 999989,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7061,6 +7564,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7075,6 +7579,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -7093,12 +7598,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Kung Fu": {
     "power": 5695,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7121,6 +7628,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -7135,6 +7643,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -7145,6 +7654,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -7156,6 +7666,7 @@ window.minlucks = {
     "power": 8000,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -7177,12 +7688,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Land Loafer": {
     "power": 8000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7204,6 +7717,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0
     ]
@@ -7215,6 +7729,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7225,6 +7740,7 @@ window.minlucks = {
   "Lawbender": {
     "power": 9680,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7243,6 +7759,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -7257,6 +7774,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7267,6 +7785,7 @@ window.minlucks = {
   "Lethargic Guard": {
     "power": 19040,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7285,6 +7804,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -7300,6 +7820,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -7313,6 +7834,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7323,6 +7845,7 @@ window.minlucks = {
   "Limestone Miner": {
     "power": 25101,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7345,6 +7868,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -7354,6 +7878,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -7373,6 +7898,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -7387,12 +7913,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Loathsome Locust": {
     "power": 20000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7411,6 +7939,7 @@ window.minlucks = {
       25,
       25,
       25,
+      25,
       200,
       25,
       100,
@@ -7425,6 +7954,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7443,6 +7973,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -7452,6 +7983,7 @@ window.minlucks = {
       100,
       0,
       125,
+      0,
       0,
       0,
       0,
@@ -7471,6 +8003,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -7481,6 +8014,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7495,6 +8029,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7513,12 +8048,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Lumberjack": {
     "power": 26000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7541,12 +8078,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       175
     ]
   },
   "Lunar Red Candle Maker": {
     "power": 88,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -7565,6 +8104,7 @@ window.minlucks = {
       0,
       100,
       0,
+      0,
       25,
       200,
       25,
@@ -7579,6 +8119,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -7589,6 +8130,7 @@ window.minlucks = {
   "M400": {
     "power": 16400,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7607,6 +8149,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7625,12 +8168,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Mage Weaver": {
     "power": 29999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7649,6 +8194,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7659,6 +8205,7 @@ window.minlucks = {
   "Magic Champion": {
     "power": 72000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7678,6 +8225,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0,
       0,
@@ -7691,6 +8239,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       75,
       0,
       75,
@@ -7701,6 +8250,7 @@ window.minlucks = {
   "Magmatic Crystal Thief": {
     "power": 5499,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7722,6 +8272,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0
     ]
@@ -7733,6 +8284,7 @@ window.minlucks = {
       300,
       300,
       300,
+      0,
       300,
       300,
       300,
@@ -7751,12 +8303,14 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
   "Malevolent Maestro": {
     "power": 92300,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7771,6 +8325,7 @@ window.minlucks = {
   "Malicious Marquis": {
     "power": 36660,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7793,6 +8348,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -7802,6 +8358,7 @@ window.minlucks = {
       100,
       0,
       5000,
+      0,
       0,
       0,
       0,
@@ -7821,12 +8378,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Market Guard": {
     "power": 42803,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7841,6 +8400,7 @@ window.minlucks = {
   "Market Thief": {
     "power": 42900,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7863,6 +8423,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300
     ]
   },
@@ -7872,6 +8433,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -7887,6 +8449,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -7901,6 +8464,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -7911,6 +8475,7 @@ window.minlucks = {
   "Master of the Cheese Belt": {
     "power": 4000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7929,6 +8494,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       175,
@@ -7939,6 +8505,7 @@ window.minlucks = {
   "Master of the Cheese Fang": {
     "power": 4000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7961,12 +8528,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       500
     ]
   },
   "Master of the Chi Claw": {
     "power": 115000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -7989,12 +8558,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       500
     ]
   },
   "Master of the Dojo": {
     "power": 10000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8017,6 +8588,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8026,6 +8598,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -8045,6 +8618,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8055,6 +8629,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8069,6 +8644,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8087,6 +8663,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8097,6 +8674,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8111,6 +8689,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -8129,6 +8708,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8143,6 +8723,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8150,6 +8731,7 @@ window.minlucks = {
     "power": 13650,
     "effs": [
       150,
+      0,
       0,
       0,
       0,
@@ -8168,6 +8750,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       50,
       0,
       200,
@@ -8178,6 +8761,7 @@ window.minlucks = {
     "power": 11000,
     "effs": [
       50,
+      0,
       0,
       0,
       0,
@@ -8196,6 +8780,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -8206,6 +8791,7 @@ window.minlucks = {
     "power": 1325,
     "effs": [
       50,
+      0,
       0,
       0,
       0,
@@ -8223,6 +8809,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8233,6 +8820,7 @@ window.minlucks = {
   "Mighty Mite": {
     "power": 13000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8251,6 +8839,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8269,12 +8858,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Militant Samurai": {
     "power": 18000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8297,6 +8888,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8311,6 +8903,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8318,6 +8911,7 @@ window.minlucks = {
     "power": 3442,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -8336,6 +8930,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       50,
       0,
       200,
@@ -8345,6 +8940,7 @@ window.minlucks = {
   "Mintaka": {
     "power": 8000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8364,6 +8960,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       50,
       0,
       200,
@@ -8374,6 +8971,7 @@ window.minlucks = {
     "power": 6825,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -8391,6 +8989,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8405,6 +9004,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8423,6 +9023,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8437,6 +9038,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8447,6 +9049,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8458,6 +9061,7 @@ window.minlucks = {
     "power": 300,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -8479,12 +9083,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Monarch": {
     "power": 2530,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8499,6 +9105,7 @@ window.minlucks = {
   "Monk": {
     "power": 6630,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8518,6 +9125,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       150,
       0,
       0,
@@ -8531,6 +9139,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       500,
       500,
       100,
@@ -8542,6 +9151,7 @@ window.minlucks = {
     "power": 88000,
     "effs": [
       1000,
+      0,
       0,
       0,
       0,
@@ -8563,6 +9173,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8573,6 +9184,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8587,6 +9199,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8597,6 +9210,7 @@ window.minlucks = {
   "Monstrous Midge": {
     "power": 110000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8615,6 +9229,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -8629,6 +9244,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -8647,6 +9263,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8657,6 +9274,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8667,6 +9285,7 @@ window.minlucks = {
   "Mousataur Priestess": {
     "power": 1800,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -8689,6 +9308,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       500
     ]
   },
@@ -8699,6 +9319,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8713,6 +9334,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8727,6 +9349,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8737,6 +9360,7 @@ window.minlucks = {
   "Mouse With No Name": {
     "power": 4999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8755,6 +9379,7 @@ window.minlucks = {
       0,
       100,
       0,
+      0,
       25,
       2500,
       25,
@@ -8769,6 +9394,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8782,6 +9408,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       25,
       200,
@@ -8801,6 +9428,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8810,6 +9438,7 @@ window.minlucks = {
       275,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -8829,6 +9458,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8839,6 +9469,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       0,
       0,
       0,
@@ -8857,6 +9488,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8867,6 +9499,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -8885,6 +9518,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8895,6 +9529,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8909,6 +9544,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8923,6 +9559,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8941,6 +9578,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -8951,6 +9589,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -8961,6 +9600,7 @@ window.minlucks = {
   "Mysterious Traveller": {
     "power": 3253,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -8983,12 +9623,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Mystic Bishop": {
     "power": 10800,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9011,6 +9653,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9025,12 +9668,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Mystic King": {
     "power": 24000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9051,6 +9696,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -9059,6 +9705,7 @@ window.minlucks = {
   "Mystic Pawn": {
     "power": 1800,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9079,6 +9726,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -9087,6 +9735,7 @@ window.minlucks = {
   "Mystic Rook": {
     "power": 18620,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9109,12 +9758,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Mythical Giant King": {
     "power": 148100,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9137,12 +9788,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Nachore Golem": {
     "power": 2235,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9162,6 +9815,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       500,
       0,
       0,
@@ -9175,6 +9829,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       0,
       175,
@@ -9189,6 +9844,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -9203,6 +9859,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9217,6 +9874,7 @@ window.minlucks = {
       125,
       125,
       400,
+      25,
       75,
       125,
       75,
@@ -9235,12 +9893,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Nerg Chieftain": {
     "power": 12600,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9260,6 +9920,7 @@ window.minlucks = {
       200,
       0,
       0,
+      0,
       125,
       0,
       0,
@@ -9273,6 +9934,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9287,6 +9949,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9301,6 +9964,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9312,6 +9976,7 @@ window.minlucks = {
     "power": 5500,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -9330,6 +9995,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -9340,6 +10006,7 @@ window.minlucks = {
     "power": 67600,
     "effs": [
       150,
+      0,
       0,
       0,
       0,
@@ -9358,6 +10025,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       150,
       0,
       0,
@@ -9369,6 +10037,7 @@ window.minlucks = {
     "effs": [
       100,
       100,
+      0,
       0,
       0,
       0,
@@ -9389,6 +10058,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9397,6 +10067,7 @@ window.minlucks = {
     "effs": [
       100,
       100,
+      0,
       0,
       0,
       0,
@@ -9417,6 +10088,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9426,6 +10098,7 @@ window.minlucks = {
       275,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -9445,12 +10118,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Ninja": {
     "power": 1275,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9469,6 +10144,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9483,6 +10159,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -9497,6 +10174,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -9508,6 +10186,7 @@ window.minlucks = {
     "power": 900,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -9525,6 +10204,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9535,6 +10215,7 @@ window.minlucks = {
   "Obstinate Oboist": {
     "power": 19000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9557,6 +10238,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9567,6 +10249,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9585,6 +10268,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9592,6 +10276,7 @@ window.minlucks = {
     "power": 3800,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -9613,6 +10298,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       400
     ]
   },
@@ -9623,6 +10309,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9638,6 +10325,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -9647,6 +10335,7 @@ window.minlucks = {
   "Ore Chipper": {
     "power": 1720,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9665,6 +10354,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9683,12 +10373,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Outlaw": {
     "power": 4500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9709,6 +10401,7 @@ window.minlucks = {
       200,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -9717,6 +10410,7 @@ window.minlucks = {
   "Overcaster": {
     "power": 17275,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9739,6 +10433,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9753,6 +10448,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9763,6 +10459,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -9777,6 +10474,7 @@ window.minlucks = {
       200,
       200,
       200,
+      25,
       75,
       200,
       75,
@@ -9795,6 +10493,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9805,6 +10504,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9815,6 +10515,7 @@ window.minlucks = {
   "Para Para Dancer": {
     "power": 900,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -9837,6 +10538,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -9845,6 +10547,7 @@ window.minlucks = {
     "effs": [
       0,
       500,
+      0,
       0,
       0,
       0,
@@ -9865,12 +10568,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Paragon of Shadow": {
     "power": 246650,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9885,6 +10590,7 @@ window.minlucks = {
   "Paragon of Strength": {
     "power": 305875,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9905,6 +10611,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       500,
       0,
       0
@@ -9913,6 +10620,7 @@ window.minlucks = {
   "Paragon of the Lawless": {
     "power": 124100,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9935,12 +10643,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Parlour Player": {
     "power": 2250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9959,6 +10669,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -9969,6 +10680,7 @@ window.minlucks = {
   "Passenger": {
     "power": 3000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -9987,6 +10699,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       0,
       175,
@@ -9997,6 +10710,7 @@ window.minlucks = {
   "Peaceful Prisoner": {
     "power": 15000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10019,6 +10733,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10033,6 +10748,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10043,6 +10759,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -10053,6 +10770,7 @@ window.minlucks = {
   "Peevish Piccoloist": {
     "power": 21000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10071,6 +10789,7 @@ window.minlucks = {
       700,
       700,
       700,
+      0,
       700,
       700,
       700,
@@ -10087,6 +10806,7 @@ window.minlucks = {
       200,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -10095,6 +10815,7 @@ window.minlucks = {
   "Pernicious Prince": {
     "power": 115150,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10113,6 +10834,7 @@ window.minlucks = {
       50,
       50,
       50,
+      25,
       50,
       50,
       200,
@@ -10127,6 +10849,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10137,6 +10860,7 @@ window.minlucks = {
   "Photographer": {
     "power": 2752,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10155,6 +10879,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300,
       0,
       300,
@@ -10169,6 +10894,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -10182,6 +10908,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -10201,6 +10928,7 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
@@ -10211,6 +10939,7 @@ window.minlucks = {
       100,
       100,
       175,
+      0,
       100,
       100,
       100,
@@ -10229,6 +10958,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10243,12 +10973,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Plotting Page": {
     "power": 32000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10267,6 +10999,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10281,6 +11014,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10291,6 +11025,7 @@ window.minlucks = {
   "Pocketwatch": {
     "power": 5000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10313,6 +11048,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10327,6 +11063,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10337,6 +11074,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10347,6 +11085,7 @@ window.minlucks = {
   "Portal Paladin": {
     "power": 8000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10369,12 +11108,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
   "Portal Pursuer": {
     "power": 5000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10397,12 +11138,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       1000
     ]
   },
   "Praetorian Champion": {
     "power": 72000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10425,6 +11168,7 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
@@ -10439,12 +11183,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       2500
     ]
   },
   "Primal": {
     "power": 12345,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10467,6 +11213,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10481,12 +11228,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Prospector": {
     "power": 1750,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10509,6 +11258,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10519,6 +11269,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10529,6 +11280,7 @@ window.minlucks = {
   "Puddlemancer": {
     "power": 9925,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10551,6 +11303,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10561,6 +11314,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -10578,6 +11332,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0
     ]
@@ -10585,6 +11340,7 @@ window.minlucks = {
   "Pumpkin Head": {
     "power": 2400,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10607,6 +11363,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -10621,12 +11378,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       900
     ]
   },
   "Puppet Master": {
     "power": 100,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -10649,6 +11408,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -10658,6 +11418,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       200,
@@ -10677,12 +11438,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Pyrite": {
     "power": 650,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10704,6 +11467,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       500,
       0
     ]
@@ -10718,6 +11482,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0
     ]
@@ -10725,6 +11490,7 @@ window.minlucks = {
   "Quesodillo": {
     "power": 5000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10747,6 +11513,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10757,6 +11524,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10769,6 +11537,7 @@ window.minlucks = {
     "effs": [
       100,
       50,
+      0,
       0,
       0,
       0,
@@ -10786,6 +11555,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       150,
       0,
       0,
@@ -10797,6 +11567,7 @@ window.minlucks = {
     "effs": [
       100,
       50,
+      0,
       0,
       0,
       0,
@@ -10813,6 +11584,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -10828,6 +11600,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       150,
       0,
       0,
@@ -10839,6 +11612,7 @@ window.minlucks = {
     "effs": [
       100,
       100,
+      0,
       0,
       0,
       0,
@@ -10859,6 +11633,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10869,6 +11644,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10882,6 +11658,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       25,
       200,
@@ -10897,6 +11674,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -10907,6 +11685,7 @@ window.minlucks = {
   "Reality Restitch": {
     "power": 300,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -10926,6 +11705,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -10943,6 +11723,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -10954,6 +11735,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -10963,6 +11745,7 @@ window.minlucks = {
   "Record Keeper": {
     "power": 2300,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -10985,6 +11768,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -10995,6 +11779,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11005,6 +11790,7 @@ window.minlucks = {
   "Red Envelope": {
     "power": 888,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -11023,6 +11809,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11041,6 +11828,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -11051,6 +11839,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11065,6 +11854,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11075,6 +11865,7 @@ window.minlucks = {
   "Renegade": {
     "power": 9700,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11097,6 +11888,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -11104,6 +11896,7 @@ window.minlucks = {
     "power": 7637.5,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -11121,6 +11914,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11135,6 +11929,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11149,6 +11944,7 @@ window.minlucks = {
       200,
       200,
       200,
+      0,
       200,
       200,
       200,
@@ -11163,6 +11959,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11177,6 +11974,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11191,6 +11989,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11205,6 +12004,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11219,6 +12019,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11233,6 +12034,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11248,6 +12050,7 @@ window.minlucks = {
       200,
       0,
       0,
+      0,
       200,
       0,
       0,
@@ -11261,6 +12064,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -11272,6 +12076,7 @@ window.minlucks = {
     "power": 1145,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -11291,6 +12096,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       600,
       0,
       0
@@ -11303,6 +12109,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11313,6 +12120,7 @@ window.minlucks = {
   "Rogue": {
     "power": 600,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -11331,6 +12139,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11345,6 +12154,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11355,6 +12165,7 @@ window.minlucks = {
   "Root Rummager": {
     "power": 9000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11377,12 +12188,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Rubble Rouser": {
     "power": 4225,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11397,6 +12210,7 @@ window.minlucks = {
   "Rubble Rummager": {
     "power": 3480,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11418,6 +12232,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0
     ]
@@ -11429,6 +12244,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11447,6 +12263,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -11457,6 +12274,7 @@ window.minlucks = {
       200,
       200,
       200,
+      25,
       75,
       200,
       75,
@@ -11467,6 +12285,7 @@ window.minlucks = {
   "Saloon Gal": {
     "power": 1750,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11485,6 +12304,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -11503,12 +12323,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Samurai": {
     "power": 6630,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11527,6 +12349,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       75,
       0,
       100,
@@ -11537,6 +12360,7 @@ window.minlucks = {
   "Sand Colossus": {
     "power": 5000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11559,6 +12383,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -11573,12 +12398,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Sand Pilgrim": {
     "power": 3000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11601,12 +12428,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Sandmouse": {
     "power": 1800,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -11625,6 +12454,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       75,
       0,
       100,
@@ -11643,12 +12473,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Sarcophamouse": {
     "power": 5000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11663,6 +12495,7 @@ window.minlucks = {
   "Sassy Salsa Dancer": {
     "power": 24000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11682,6 +12515,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -11691,6 +12525,7 @@ window.minlucks = {
   "Scarecrow": {
     "power": 2645,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11709,6 +12544,7 @@ window.minlucks = {
       300,
       300,
       300,
+      0,
       300,
       300,
       300,
@@ -11724,6 +12560,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -11733,6 +12570,7 @@ window.minlucks = {
   "Scheming Squire": {
     "power": 38000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11755,12 +12593,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Scorned Pirate": {
     "power": 2350,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -11779,6 +12619,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -11797,12 +12638,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Scribe": {
     "power": 26999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11821,6 +12664,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11835,6 +12679,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -11853,12 +12698,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Seasoned Islandographer": {
     "power": 20550,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11873,6 +12720,7 @@ window.minlucks = {
   "Seer": {
     "power": 8800,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11895,6 +12743,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -11905,6 +12754,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -11923,12 +12773,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Serpentine": {
     "power": 7998,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11951,6 +12803,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
@@ -11965,12 +12818,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100000
     ]
   },
   "Shadow Sage": {
     "power": 73500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -11993,6 +12848,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12003,6 +12859,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -12021,6 +12878,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
@@ -12031,6 +12889,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -12041,6 +12900,7 @@ window.minlucks = {
   "Sharpshooter": {
     "power": 4999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -12063,6 +12923,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12077,6 +12938,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12087,6 +12949,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -12105,6 +12968,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -12115,6 +12979,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -12125,6 +12990,7 @@ window.minlucks = {
   "Shopkeeper": {
     "power": 1500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -12147,6 +13013,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -12157,6 +13024,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12175,6 +13043,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12185,6 +13054,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       100,
       125,
@@ -12199,6 +13069,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12213,6 +13084,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12231,6 +13103,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12240,6 +13113,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -12255,6 +13129,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -12267,6 +13142,7 @@ window.minlucks = {
     "effs": [
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -12287,6 +13163,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100
     ]
   },
@@ -12296,6 +13173,7 @@ window.minlucks = {
       200,
       0,
       100,
+      0,
       0,
       0,
       100,
@@ -12308,6 +13186,7 @@ window.minlucks = {
     "power": 18375,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -12329,6 +13208,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12336,6 +13216,7 @@ window.minlucks = {
     "power": 11000,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -12357,6 +13238,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12367,6 +13249,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12385,12 +13268,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Sky Squire": {
     "power": 80460,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -12413,12 +13298,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Sky Swordsman": {
     "power": 18610,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -12437,6 +13324,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12451,6 +13339,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12461,6 +13350,7 @@ window.minlucks = {
   "Slayer": {
     "power": 9800,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -12483,12 +13373,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Sleepy Merchant": {
     "power": 420,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -12511,6 +13403,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12521,6 +13414,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12539,6 +13433,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12549,6 +13444,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12567,6 +13463,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12577,6 +13474,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -12595,12 +13493,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Smug Smuggler": {
     "power": 30000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -12619,6 +13519,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300,
       0,
       300,
@@ -12633,6 +13534,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12647,6 +13549,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12665,6 +13568,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12675,6 +13579,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12689,6 +13594,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12703,6 +13609,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12717,6 +13624,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12735,6 +13643,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12745,6 +13654,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -12763,6 +13673,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12773,6 +13684,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12787,6 +13699,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12805,6 +13718,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12815,6 +13729,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12829,6 +13744,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12843,6 +13759,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -12853,6 +13770,7 @@ window.minlucks = {
   "Sock Puppet Ghost": {
     "power": 210,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -12875,6 +13793,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       5000
     ]
   },
@@ -12884,6 +13803,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -12903,6 +13823,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -12912,6 +13833,7 @@ window.minlucks = {
       200,
       0,
       100,
+      0,
       0,
       0,
       100,
@@ -12931,12 +13853,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Space Party-Time Plumber": {
     "power": 500,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -12959,12 +13883,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Spectral Butler": {
     "power": 3200,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -12987,6 +13913,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -12996,6 +13923,7 @@ window.minlucks = {
       200,
       0,
       100,
+      0,
       0,
       0,
       100,
@@ -13011,6 +13939,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13021,6 +13950,7 @@ window.minlucks = {
   "Spellbinder": {
     "power": 5350,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13043,6 +13973,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13050,6 +13981,7 @@ window.minlucks = {
     "power": 2455,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -13071,12 +14003,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Spice Merchant": {
     "power": 13950,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13099,6 +14033,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13106,6 +14041,7 @@ window.minlucks = {
     "power": 6700,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -13127,6 +14063,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13134,6 +14071,7 @@ window.minlucks = {
     "power": 3080,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -13150,6 +14088,7 @@ window.minlucks = {
       200,
       0,
       100,
+      0,
       0,
       0,
       100,
@@ -13169,12 +14108,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Spiky Devil": {
     "power": 3000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13193,6 +14134,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -13211,6 +14153,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -13221,6 +14164,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -13235,6 +14179,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -13253,6 +14198,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13263,6 +14209,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -13281,6 +14228,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13289,6 +14237,7 @@ window.minlucks = {
     "effs": [
       100,
       100,
+      0,
       0,
       0,
       0,
@@ -13309,6 +14258,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13319,6 +14269,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13333,6 +14284,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13343,6 +14295,7 @@ window.minlucks = {
   "Spring Familiar": {
     "power": 10500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13361,6 +14314,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13371,6 +14325,7 @@ window.minlucks = {
   "Sprinkly Sweet Cupcake Cook": {
     "power": 1000,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -13393,6 +14348,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13402,6 +14358,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -13417,6 +14374,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13431,6 +14389,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -13445,6 +14404,7 @@ window.minlucks = {
       0,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13459,6 +14419,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13476,6 +14437,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0
     ]
@@ -13483,6 +14445,7 @@ window.minlucks = {
   "Stagecoach Driver": {
     "power": 4500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13505,12 +14468,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Stealth": {
     "power": 300,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -13525,6 +14490,7 @@ window.minlucks = {
   "Steam Grip": {
     "power": 23001,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13547,6 +14513,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13557,6 +14524,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13567,6 +14535,7 @@ window.minlucks = {
   "Steel Horse Rider": {
     "power": 4999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13589,12 +14558,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Stinger": {
     "power": 13200,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13617,6 +14588,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13627,6 +14599,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13638,6 +14611,7 @@ window.minlucks = {
     "power": 2100,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -13659,12 +14633,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Stonework Warrior": {
     "power": 13450,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13687,12 +14663,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Stoutgear": {
     "power": 4000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13714,6 +14692,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0
     ]
@@ -13721,6 +14700,7 @@ window.minlucks = {
   "Stratocaster": {
     "power": 19700,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13743,6 +14723,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13753,6 +14734,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13763,6 +14745,7 @@ window.minlucks = {
   "Student of the Cheese Belt": {
     "power": 2200,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13781,6 +14764,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       175,
@@ -13791,6 +14775,7 @@ window.minlucks = {
   "Student of the Cheese Fang": {
     "power": 2200,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13813,12 +14798,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
   "Student of the Chi Claw": {
     "power": 15000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13841,12 +14828,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
   "Stuffy Banker": {
     "power": 2250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13865,6 +14854,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -13876,6 +14866,7 @@ window.minlucks = {
     "power": 9500,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -13897,12 +14888,14 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
   "Sultry Saxophonist": {
     "power": 23000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13917,6 +14910,7 @@ window.minlucks = {
   "Summer Mage": {
     "power": 19800,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -13939,6 +14933,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -13949,6 +14944,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -13967,12 +14963,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Super FighterBot MegaSupreme": {
     "power": 2450,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -13991,6 +14989,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -14005,6 +15004,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -14015,6 +15015,7 @@ window.minlucks = {
   "Supply Hoarder": {
     "power": 4999,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14037,6 +15038,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
@@ -14047,6 +15049,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -14061,6 +15064,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -14079,12 +15083,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Swamp Thang": {
     "power": 1800,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -14104,6 +15110,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       200,
       0,
       0,
@@ -14121,6 +15128,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14131,6 +15139,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -14149,6 +15158,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14163,6 +15173,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14173,6 +15184,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -14183,6 +15195,7 @@ window.minlucks = {
   "Tanglefoot": {
     "power": 4420,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14205,6 +15218,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14215,6 +15229,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -14225,6 +15240,7 @@ window.minlucks = {
   "Technic Bishop": {
     "power": 10800,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14245,6 +15261,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       2500,
       0,
       0
@@ -14253,6 +15270,7 @@ window.minlucks = {
   "Technic Knight": {
     "power": 8596,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14273,6 +15291,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -14287,6 +15306,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -14295,6 +15315,7 @@ window.minlucks = {
   "Technic Rook": {
     "power": 18620,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14317,6 +15338,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -14327,6 +15349,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -14345,6 +15368,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14355,6 +15379,7 @@ window.minlucks = {
       100,
       100,
       100,
+      25,
       75,
       400,
       75,
@@ -14369,6 +15394,7 @@ window.minlucks = {
       25,
       25,
       25,
+      200,
       25,
       25,
       25,
@@ -14379,6 +15405,7 @@ window.minlucks = {
   "Terrified Adventurer": {
     "power": 100,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14398,6 +15425,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -14411,6 +15439,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -14429,6 +15458,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100000
     ]
   },
@@ -14439,6 +15469,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -14457,6 +15488,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14467,6 +15499,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -14485,6 +15518,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14493,6 +15527,7 @@ window.minlucks = {
     "effs": [
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -14513,6 +15548,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14521,6 +15557,7 @@ window.minlucks = {
     "effs": [
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -14538,6 +15575,7 @@ window.minlucks = {
       125,
       0,
       0,
+      0,
       200,
       0,
       0,
@@ -14551,6 +15589,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -14561,6 +15600,7 @@ window.minlucks = {
   "Time Punk": {
     "power": 1000,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -14583,12 +15623,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Time Thief": {
     "power": 2850,
     "effs": [
+      100,
       100,
       100,
       100,
@@ -14611,12 +15653,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       300
     ]
   },
   "Timelost Thaumaturge": {
     "power": 4700,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14639,12 +15683,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
   "Timid Explorer": {
     "power": 3300,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14663,6 +15709,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -14675,6 +15722,7 @@ window.minlucks = {
     "effs": [
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -14694,6 +15742,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0
     ]
@@ -14701,6 +15750,7 @@ window.minlucks = {
   "Tiny Toppler": {
     "power": 2815,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14723,6 +15773,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -14733,6 +15784,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -14747,6 +15799,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -14757,6 +15810,7 @@ window.minlucks = {
   "Tome Sprite": {
     "power": 6200,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14778,6 +15832,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0
     ]
@@ -14789,6 +15844,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -14803,6 +15859,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -14821,6 +15878,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -14831,6 +15889,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -14845,6 +15904,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -14855,6 +15915,7 @@ window.minlucks = {
   "Toy Sylvan": {
     "power": 3,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -14873,6 +15934,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -14887,6 +15949,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       175,
       0,
       100,
@@ -14897,6 +15960,7 @@ window.minlucks = {
   "Train Conductor": {
     "power": 3253,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14918,6 +15982,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0
     ]
@@ -14929,6 +15994,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -14939,6 +16005,7 @@ window.minlucks = {
   "Travelling Barber": {
     "power": 3253,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -14957,6 +16024,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0,
       0,
@@ -14971,6 +16039,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -14985,6 +16054,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -14998,6 +16068,7 @@ window.minlucks = {
       100,
       0,
       300,
+      0,
       0,
       0,
       0,
@@ -15017,6 +16088,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15031,6 +16103,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15041,6 +16114,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -15059,6 +16133,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -15069,6 +16144,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -15083,6 +16159,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -15093,6 +16170,7 @@ window.minlucks = {
   "Trick": {
     "power": 2000,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -15115,6 +16193,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -15125,6 +16204,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -15143,6 +16223,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15153,6 +16234,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       175,
       100,
@@ -15163,6 +16245,7 @@ window.minlucks = {
   "Tumbleweed": {
     "power": 1375,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15181,6 +16264,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -15199,6 +16283,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15213,6 +16298,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15222,6 +16308,7 @@ window.minlucks = {
       150,
       0,
       125,
+      0,
       0,
       0,
       200,
@@ -15241,6 +16328,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15255,6 +16343,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15265,6 +16354,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -15275,6 +16365,7 @@ window.minlucks = {
   "Undertaker": {
     "power": 4500,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15297,12 +16388,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       175
     ]
   },
   "Upper Class Lady": {
     "power": 2250,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15325,6 +16418,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15334,6 +16428,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       25,
       200,
@@ -15349,6 +16444,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -15367,6 +16463,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15375,6 +16472,7 @@ window.minlucks = {
     "effs": [
       0,
       100,
+      0,
       0,
       0,
       0,
@@ -15395,12 +16493,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Vigilant Ward": {
     "power": 5000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15423,12 +16523,14 @@ window.minlucks = {
       100,
       100,
       100,
+      100,
       100
     ]
   },
   "Vindictive Viscount": {
     "power": 25000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15447,6 +16549,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       0,
       125,
@@ -15461,6 +16564,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       350,
       0,
       0,
@@ -15471,6 +16575,7 @@ window.minlucks = {
   "Violent Violinist": {
     "power": 33090,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15493,12 +16598,14 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
   "Walker": {
     "power": 14751,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15521,6 +16628,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200
     ]
   },
@@ -15531,6 +16639,7 @@ window.minlucks = {
       400,
       400,
       400,
+      0,
       400,
       400,
       400,
@@ -15545,6 +16654,7 @@ window.minlucks = {
       400,
       400,
       400,
+      0,
       400,
       400,
       400,
@@ -15559,6 +16669,7 @@ window.minlucks = {
       400,
       400,
       400,
+      0,
       400,
       400,
       400,
@@ -15573,6 +16684,7 @@ window.minlucks = {
       400,
       400,
       400,
+      0,
       400,
       400,
       400,
@@ -15583,6 +16695,7 @@ window.minlucks = {
   "Warehouse Manager": {
     "power": 4498,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15605,6 +16718,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15615,6 +16729,7 @@ window.minlucks = {
       0,
       0,
       75,
+      0,
       100,
       0,
       75,
@@ -15629,6 +16744,7 @@ window.minlucks = {
       0,
       0,
       175,
+      0,
       100,
       0,
       100,
@@ -15643,6 +16759,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -15661,6 +16778,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15671,6 +16789,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -15685,6 +16804,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -15696,6 +16816,7 @@ window.minlucks = {
     "power": 6142.5,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -15714,6 +16835,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       150,
       0,
       0,
@@ -15724,6 +16846,7 @@ window.minlucks = {
     "power": 9425,
     "effs": [
       100,
+      0,
       0,
       0,
       0,
@@ -15741,6 +16864,7 @@ window.minlucks = {
       100,
       0,
       75,
+      0,
       75,
       0,
       75,
@@ -15751,6 +16875,7 @@ window.minlucks = {
   "Whimsical Waltzer": {
     "power": 22000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15770,6 +16895,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       200,
       100,
       0,
@@ -15783,6 +16909,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -15797,6 +16924,7 @@ window.minlucks = {
       200,
       200,
       200,
+      25,
       75,
       200,
       75,
@@ -15811,6 +16939,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -15825,6 +16954,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       100,
       100,
       175,
@@ -15840,6 +16970,7 @@ window.minlucks = {
       100,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -15849,6 +16980,7 @@ window.minlucks = {
   "Wild Chainsaw": {
     "power": 1800,
     "effs": [
+      101,
       101,
       101,
       101,
@@ -15869,6 +17001,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -15879,6 +17012,7 @@ window.minlucks = {
     "effs": [
       150,
       50,
+      0,
       0,
       0,
       0,
@@ -15896,6 +17030,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0,
@@ -15907,6 +17042,7 @@ window.minlucks = {
     "effs": [
       100,
       100,
+      0,
       0,
       0,
       0,
@@ -15923,6 +17059,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -15937,6 +17074,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -15953,6 +17091,7 @@ window.minlucks = {
       200,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -15961,6 +17100,7 @@ window.minlucks = {
   "Withered Remains": {
     "power": 29000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -15983,6 +17123,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -15993,6 +17134,7 @@ window.minlucks = {
       0,
       0,
       100,
+      0,
       175,
       0,
       100,
@@ -16003,6 +17145,7 @@ window.minlucks = {
   "Worker": {
     "power": 635,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -16023,6 +17166,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       100,
       0,
       0
@@ -16031,6 +17175,7 @@ window.minlucks = {
   "Wound Up White": {
     "power": 1,
     "effs": [
+      25,
       25,
       25,
       25,
@@ -16049,6 +17194,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       150,
       0,
       0,
@@ -16063,6 +17209,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -16081,6 +17228,7 @@ window.minlucks = {
       0,
       0,
       0,
+      0,
       0
     ]
   },
@@ -16091,6 +17239,7 @@ window.minlucks = {
       100,
       100,
       100,
+      0,
       100,
       100,
       100,
@@ -16101,6 +17250,7 @@ window.minlucks = {
   "Zealous Academic": {
     "power": 28000,
     "effs": [
+      0,
       0,
       0,
       0,
@@ -16119,6 +17269,7 @@ window.minlucks = {
       100,
       100,
       100,
+      25,
       75,
       400,
       75,
@@ -16132,6 +17283,7 @@ window.minlucks = {
       100,
       0,
       100,
+      0,
       0,
       100,
       200,
@@ -16151,6 +17303,7 @@ window.minlucks = {
       101,
       101,
       101,
+      101,
       300
     ]
   },
@@ -16161,6 +17314,7 @@ window.minlucks = {
       10,
       10,
       10,
+      0,
       10,
       10,
       10,
@@ -16171,6 +17325,7 @@ window.minlucks = {
   "Zurreal the Eternal": {
     "power": 73001,
     "effs": [
+      0,
       0,
       0,
       0,
