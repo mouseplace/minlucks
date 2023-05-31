@@ -21,6 +21,7 @@ jq -s 'add' effs2.json > effs.json
 rm effs2.json
 
 minlucks=$(cat effs.json)
+rm effs.json
 
 echo "// ==UserScript==
 // @name        MouseHunt Minlucks
