@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        MouseHunt Minlucks
 // @description Minlucks and power for MouseHunt, from Google Sheets, to power the multiple mini-CRE scripts.
-// @version     2023.05.31
+// @version     2023.19.05/31/23
 // @license     MIT
 // @author      brap
 // @namespace   bradp
