@@ -2,26 +2,20 @@
 
 version=$(date +%Y.%m.%d)
 
-# Get the power and minlucks from the Minlucks spreadsheet
-curl -s 'https://docs.google.com/spreadsheets/d/13hKjNDFTFR3rTkmQzyi3d4ZDOlQJUvTfWPDQemmFW_Y/gviz/tq?tqx=out:csv&sheet=MP+Effs' > effs.csv
+# Get the power and minlucks from the Minlucks spreadsheet.
+curl -s 'https://docs.google.com/spreadsheets/d/13hKjNDFTFR3rTkmQzyi3d4ZDOlQJUvTfWPDQemmFW_Y/gviz/tq?tqx=out:csv&gid=0' > effs.csv
 
-# Convert the CSV to JSON
-jq -cR 'split(",")' effs.csv | jq -csf csv2json.jq | jq > effs.json
-rm effs.csv
+# Convert the csv to json and replace the escaped quotes.
+jq -cR 'split("\",\"")' effs.csv > effs2.csv
+sed 's/\\"//g' effs2.csv > effs.csv
+jq -csf csv2json.jq effs.csv | jq > effs.json
 
-# Remove the escaped quotes
-sed 's/\\\"//g' effs.json > effs2.json
-
-# Remove the ∞ symbols
-sed 's/∞//g' effs2.json > effs.json
-
-# Reformat the json to be an array of objects in the format {"<mouse>": {"power": <power>, "minlucks": [<minlucks>]}}
-jq -s '.[0][] | {(.["Mouse"]):{ power: .["Mouse Power"], effs: [.["Arcane"], .["Draconic"], .["Forgotten"], .["Hydro"], .["Physical"], .["Shadow"], .["Tactical"], .["Law"], .["Rift"]]}}' effs.json > effs2.json
+# # Reformat the json to be an array of objects in the format {"<mouse>": {"power": <power>, "minlucks": [<minlucks>]}}
+jq -s '.[0][] | {(.Mouse):{ power: .Power, effs: [.Arcane, .Draconic, .Forgotten, .Hydro, .Physical, .Shadow, .Tactical, .Law, .Rift]}}' effs.json > effs2.json
 jq -s 'add' effs2.json > effs.json
-rm effs2.json
 
+# # Create the minlucks.js file.
 minlucks=$(cat effs.json)
-rm effs.json
 
 echo "// ==UserScript==
 // @name        MouseHunt Minlucks
@@ -38,12 +32,18 @@ echo "// ==UserScript==
 
 window.minlucks = $minlucks;" > minlucks.js
 
-git add minlucks.js
-git commit -m "Update minlucks.js to $version"
+# Clean up.
+rm effs2.csv
+rm effs.csv
+rm effs.json
+rm effs2.json
 
-git tag -a "$version" -m "Update minlucks.js to $version" -f
+# git add minlucks.js
+# git commit -m "Update minlucks.js to $version"
 
-git push origin main
-git push origin "$version" -f
-npm version "$version"
-npm publish
+# git tag -a "$version" -m "Update minlucks.js to $version" -f
+
+# git push origin main
+# git push origin "$version" -f
+# npm version "$version"
+# npm publish
