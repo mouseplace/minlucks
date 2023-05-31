@@ -11,7 +11,7 @@
 // @grant       none
 // ==/UserScript==
 
-const minlucks = {
+window.minlucks = {
   "Abominable Snow": {
     "power": 1900,
     "effs": [
