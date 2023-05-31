@@ -1,0 +1,19 @@
+{
+  "name": "minlucks",
+  "version": "2023.5.31",
+  "description": "Minlucks and power for MouseHunt, from Google Sheets, to power the multiple mini-CRE scripts.",
+  "main": "minlucks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouseplace/minlucks.git"
+  },
+  "author": "Brad Parbs <brad@bradparbs.com> (https://bradparbs.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mouseplace/minlucks/issues"
+  },
+  "homepage": "https://github.com/mouseplace/minlucks#readme"
+}

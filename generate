@@ -36,12 +36,14 @@ echo "// ==UserScript==
 // @grant       none
 // ==/UserScript==
 
-window.minlucks = $minlucks;" > minlucks.user.js
+window.minlucks = $minlucks;" > minlucks.js
 
-git add minlucks.user.js
-git commit -m "Update minlucks.user.js to $version"
+git add minlucks.js
+git commit -m "Update minlucks.js to $version"
 
-git tag -a "$version" -m "Update minlucks.user.js to $version"
+git tag -a "$version" -m "Update minlucks.js to $version" -f
 
 git push origin main
-git push origin "$version"
+git push origin "$version" -f
+npm version "$version"
+npm publish
