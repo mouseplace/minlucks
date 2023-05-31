@@ -36,3 +36,11 @@ echo "// ==UserScript==
 // ==/UserScript==
 
 window.minlucks = $minlucks;" > minlucks.user.js
+
+git add minlucks.user.js
+git commit -m "Update minlucks.user.js to $version"
+
+git tag -a "$version" -m "Update minlucks.user.js to $version"
+
+git push origin main
+git push origin "$version"
