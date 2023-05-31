@@ -1,4 +1,4 @@
-# MH Minlucks - userscript library
+# MH Minlucks (userscript library)
 
 Populates `window.minlucks` with the contents of the [Minlucks Google Sheet](https://docs.google.com/spreadsheets/d/13hKjNDFTFR3rTkmQzyi3d4ZDOlQJUvTfWPDQemmFW_Y/edit#gid=0).
 
