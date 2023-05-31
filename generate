@@ -1,12 +1,13 @@
 #! /usr/bin/env bash
 
-version=$(date +%Y%m%d%H%M%S)
+version=$(date +%Y.%m.%d)
 
 # Get the power and minlucks from the Minlucks spreadsheet
 curl -s 'https://docs.google.com/spreadsheets/d/13hKjNDFTFR3rTkmQzyi3d4ZDOlQJUvTfWPDQemmFW_Y/gviz/tq?tqx=out:csv&sheet=MP+Effs' > effs.csv
 
 # Convert the CSV to JSON
 jq -cR 'split(",")' effs.csv | jq -csf csv2json.jq | jq > effs.json
+rm effs.csv
 
 # Remove the escaped quotes
 sed 's/\\\"//g' effs.json > effs2.json
@@ -35,12 +36,3 @@ echo "// ==UserScript==
 // ==/UserScript==
 
 window.minlucks = $minlucks;" > minlucks.user.js
-
-# rm effs.csv
-# rm effs.json
-# rm effs2.json
-
-# cp userscript-header.js minlucks.user.js
-# echo -n "winow.minlucks = " >> minlucks.user.js
-# cat effs.json >> minlucks.user.js
-# echo -n ";" >> minlucks.user.js
