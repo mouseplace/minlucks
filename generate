@@ -1,0 +1,46 @@
+#! /usr/bin/env bash
+
+version=$(date +%Y%m%d%H%M%S)
+
+# Get the power and minlucks from the Minlucks spreadsheet
+curl -s 'https://docs.google.com/spreadsheets/d/13hKjNDFTFR3rTkmQzyi3d4ZDOlQJUvTfWPDQemmFW_Y/gviz/tq?tqx=out:csv&sheet=MP+Effs' > effs.csv
+
+# Convert the CSV to JSON
+jq -cR 'split(",")' effs.csv | jq -csf csv2json.jq | jq > effs.json
+
+# Remove the escaped quotes
+sed 's/\\\"//g' effs.json > effs2.json
+
+# Remove the ∞ symbols
+sed 's/∞//g' effs2.json > effs.json
+
+# Reformat the json to be an array of objects in the format {"<mouse>": {"power": <power>, "minlucks": [<minlucks>]}}
+jq -s '.[0][] | {(.["Mouse"]):{ power: .["Mouse Power"], effs: [.["Arcane"], .["Draconic"], .["Forgotten"], .["Hydro"], .["Physical"], .["Shadow"], .["Tactical"], .["Law"], .["Rift"]]}}' effs.json > effs2.json
+jq -s 'add' effs2.json > effs.json
+rm effs2.json
+
+minlucks=$(cat effs.json)
+
+echo "// ==UserScript==
+// @name        MouseHunt Minlucks
+// @description Minlucks and power for MouseHunt, from Google Sheets, to power the multiple mini-CRE scripts.
+// @version     $version
+// @license     MIT
+// @author      brap
+// @namespace   bradp
+// @match       https://www.mousehuntgame.com/*
+// @icon        https://i.mouse.rip/cheese.png
+// @run-at      document-end
+// @grant       none
+// ==/UserScript==
+
+window.minlucks = $minlucks;" > minlucks.user.js
+
+# rm effs.csv
+# rm effs.json
+# rm effs2.json
+
+# cp userscript-header.js minlucks.user.js
+# echo -n "winow.minlucks = " >> minlucks.user.js
+# cat effs.json >> minlucks.user.js
+# echo -n ";" >> minlucks.user.js
