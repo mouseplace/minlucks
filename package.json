@@ -1,6 +1,6 @@
 {
   "name": "minlucks",
-  "version": "2023.6.1",
+  "version": "2023.6.26",
   "description": "Minlucks and power for MouseHunt, from Google Sheets, to power the multiple mini-CRE scripts.",
   "main": "minlucks.js",
   "scripts": {
