@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        MouseHunt Minlucks
 // @description Minlucks and power for MouseHunt, from Google Sheets, to power the multiple mini-CRE scripts.
-// @version     2023.6.26
+// @version     2023.6.27
 // @license     MIT
 // @author      brap
 // @namespace   bradp
@@ -16573,14 +16573,14 @@ window.minlucks = {
     ]
   },
   "Vinneus Stalkhome": {
-    "power": 70788,
+    "power": 80900,
     "effs": [
       0,
       0,
       0,
       0,
       0,
-      350,
+      400,
       0,
       0,
       0,
