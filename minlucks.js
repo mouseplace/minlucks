@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        MouseHunt Minlucks
 // @description Minlucks and power for MouseHunt, from Google Sheets, to power the multiple mini-CRE scripts.
-// @version     2023.6.27
+// @version     2023.11.7
 // @license     MIT
 // @author      brap
 // @namespace   bradp
@@ -6868,7 +6868,7 @@ window.minlucks = {
     ]
   },
   "High Roller": {
-    "power": 16320,
+    "power": 12500,
     "effs": [
       100,
       100,
@@ -13543,7 +13543,7 @@ window.minlucks = {
     ]
   },
   "Snooty": {
-    "power": 12240,
+    "power": 4000,
     "effs": [
       100,
       100,
@@ -16123,7 +16123,7 @@ window.minlucks = {
     ]
   },
   "Treasurer": {
-    "power": 4080,
+    "power": 2000,
     "effs": [
       100,
       100,
